@@ -21,6 +21,11 @@ def main():
 	st.write(fig2)
 	st.header('Deaths')
 	st.write(fig3)
+	st.markdown('''---''')
+	st.markdown('Contributors')
+	st.markdown('Supan Shah - https://github.com/Supan14')
+	st.markdown('Harsh Thakkar - https://github.com/ht2631999')
+	
 @st.cache
 def load_data():
 	return pd.read_csv('https://raw.githubusercontent.com/datasets/covid-19/master/data/countries-aggregated.csv')
